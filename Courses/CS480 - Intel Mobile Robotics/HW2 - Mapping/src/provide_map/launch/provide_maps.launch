@@ -1,0 +1,6 @@
+<launch> 
+  <arg name="map_file" value="/home/sinem/catkin_ws2/src/provide_map/launch/maps/test.yaml">
+  </arg> 
+  <node pkg="map_server" type="map_server" name="map_server" args="$(arg map_file)"> 
+  </node> 
+</launch>

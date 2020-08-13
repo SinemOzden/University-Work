@@ -1,0 +1,5 @@
+<launch>
+<node pkg="OzdenS" type="main.py" name="main"/>
+
+	
+</launch>
