@@ -1,0 +1,5 @@
+g++ -Wall -g -I/usr/include -c main.cpp -o main.o
+
+g++ main.cpp -lglut -lGL -lGLU -lXxf86vm
+
+./a.out
