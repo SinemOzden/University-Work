@@ -1,0 +1,5 @@
+The result of evaluating: 50.0 5 5 + / 7.6 3.6 - + is 9.00
+The result of evaluating: 5.7 10.5 - is -4.80
+The result of evaluating: 40 8 / is 5.00
+The result of evaluating: 70 90 + 59 - 6.8 * 67.8 - is 619.00
+The result of evaluating: 10 79.6 / 56 43.1 * + is 2413.73

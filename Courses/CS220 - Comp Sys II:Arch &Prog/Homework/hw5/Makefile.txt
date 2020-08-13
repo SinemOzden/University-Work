@@ -1,0 +1,11 @@
+all: float
+.PHONY: clean test
+	
+float: float.c
+	gcc -g -o float float.c
+	
+test: float
+	float 396
+	
+clean:
+	rm float 

@@ -1,0 +1,31 @@
+CS-220 Spring 2018 Homework 6			Due: May 6, 2018
+
+1. If you run our cache simulator from Lab 13 on xmpr_trace.txt and
+xmpc_trace.txt, you will notice that no matter what cache configuration is used,
+the cache hit rates are quite different, even though xmpr and xmpc do the exact
+same work. You might say that the xmpr program is bettern than xmpc because the
+xmpr programmer understood the concept of locality. Will an awareness of the
+impact of locality affect the way you write C programs in the future?
+
+Yes the cost of fetch decreased and the program worked faster. I belive it will
+also help to solve same problems.
+
+2. As long as you use the same size cache with the same block size, which of the
+three different kinds of cache achieves the highest hit rate for xmpr_trace.txt?
+
+both Fully Associative Cache and Set Associative Cache hit rates are %99.39
+
+3. As long as you use the same size cache with the same block size, which of the
+three different kinds of cache achieves the highest hit rate for xmpc_trace.txt?
+
+Set Associative Cache hit rate is highest and %95.03
+
+4. The cache configuration we described works great for a single processor, but
+many modern machines contain multiple processors, and often, each processor has
+its own L1 cache. If multiple processors, each with its own L1 cache, are
+working on the same problem, what might happen that could cause problems?
+
+If all L1 cache work on same problem at the same time with same approach it would
+not fasten the procses but it may slow it down, because extra read and write process.	
+
+Turn in your edited HW6.txt file in myCourses under Homework Submissions, HW6. 

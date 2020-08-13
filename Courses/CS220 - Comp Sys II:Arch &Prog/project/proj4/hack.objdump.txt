@@ -1,0 +1,33 @@
+
+hack.o:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+0000000000000000 <getGrades>:
+   0:	55                   	push   %rbp
+   1:	48 89 e5             	mov    %rsp,%rbp
+   4:	b8 05 00 00 00       	mov    $0x5,%eax
+   9:	83 c0 05             	add    $0x5,%eax
+   c:	89 05 de 41 20 00    	mov    %eax,0x2041de(%rip)        # 2041f0 <getGrades+0x2041f0>
+  12:	89 05 6e 43 20 00    	mov    %eax,0x20436e(%rip)        # 204386 <getGrades+0x204386>
+  18:	89 05 fe 44 20 00    	mov    %eax,0x2044fe(%rip)        # 20451c <getGrades+0x20451c>
+  1e:	89 05 8e 46 20 00    	mov    %eax,0x20468e(%rip)        # 2046b2 <getGrades+0x2046b2>
+  24:	b8 64 00 00 00       	mov    $0x64,%eax
+  29:	89 05 9e 3b 20 00    	mov    %eax,0x203b9e(%rip)        # 203bcd <getGrades+0x203bcd>
+  2f:	89 05 2e 3d 20 00    	mov    %eax,0x203d2e(%rip)        # 203d63 <getGrades+0x203d63>
+  35:	89 05 be 3e 20 00    	mov    %eax,0x203ebe(%rip)        # 203ef9 <getGrades+0x203ef9>
+  3b:	89 05 4e 40 20 00    	mov    %eax,0x20404e(%rip)        # 20408f <getGrades+0x20408f>
+  41:	89 05 1e 48 20 00    	mov    %eax,0x20481e(%rip)        # 204865 <getGrades+0x204865>
+  47:	89 05 ae 49 20 00    	mov    %eax,0x2049ae(%rip)        # 2049fb <getGrades+0x2049fb>
+  4d:	89 05 3e 4b 20 00    	mov    %eax,0x204b3e(%rip)        # 204b91 <getGrades+0x204b91>
+  53:	48 a1 21 4b 55 55 55 	movabs 0x555555554b21,%rax
+  5a:	55 00 00 
+  5d:	48 89 c1             	mov    %rax,%rcx
+  60:	48 8b 05 54 34 20 00 	mov    0x203454(%rip),%rax        # 2034bb <getGrades+0x2034bb>
+  67:	48 03 04 25 98 00 00 	add    0x98,%rax
+  6e:	00 
+  6f:	48 89 05 54 34 20 00 	mov    %rax,0x203454(%rip)        # 2034ca <getGrades+0x2034ca>
+  76:	48 8b 05 54 34 20 00 	mov    0x203454(%rip),%rax        # 2034d1 <getGrades+0x2034d1>
+  7d:	5d                   	pop    %rbp
+  7e:	ff e1                	jmpq   *%rcx
